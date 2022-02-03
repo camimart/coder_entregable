@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Estilos del menu */
+header{
+    padding: 20px 15px;
+    width: 100%;
+    height: auto;
+}
+
+/* estilos del contenedor superior */
+header .encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Buscador */
+header .encabezado .buscador input{
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    height: 36px;
+}
+
+
+/* Logo */
+header .encabezado .logo{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+
+header .encabezado .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+header .encabezado .logo h1{
+    margin-left: 10px;
+}
+
+
+/* Boton carrito */
+header .carrito button{
+    margin: 5px 0;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 13px;
+    width: 200px;
+    background-color: #241d1d;
+    color: #FFFFFF;
+    border: none;
+}
+
+header .carrito button:hover{
+    background-color: #373333;
+}
+
+
+
+
+
+/* Estilos del menu de navegacion */
+
+nav{
+    padding: 20px 15px;
+    background-color: #373333;
+    margin: 20px auto;
+    /* border-left: 1px black;
+    border-right: 1px black; */
+    font-size: 16px;
+}
+
+
+nav ul.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu li a {
+    margin: 0px 20px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: transparent;
+    transition: all .0s;
+}
+
+.submenu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    background-color: black;
+    text-align: start;
+    font-size: 15px;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* Seccion banner */
+section#banner{
+    margin: 20px 15px;
+    padding: 5px;
+    background-color: #373333;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+section#banner h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+#envios-gratis{
+    text-align: center;
+}
+
+
+
+
+/* Clases generales */
+
+.conBordeDerecho{
+    border-right: solid 1px gray;
+}
+
+.conBordeIzquierdo{
+    border-left: solid 1px gray;
+}
